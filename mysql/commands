@@ -1,0 +1,11 @@
+mkdir data [#inside mysql folder]
+
+CREATE TABLE customers (
+  ID VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  HASH VARCHAR(255) NOT NULL,
+  PRIMARY KEY (ID)
+);
+
+mysql -h 127.0.0.1 -u admin -p
